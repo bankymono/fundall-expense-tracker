@@ -28,7 +28,7 @@ const Dashboard = () => {
     if(localStorage.getItem('expense-list')){
         setExpenses(JSON.parse(localStorage.getItem('expense-list')))
     }        
-    },[])
+    },[setExpenses])
 
     // if(localStorage.getItem('expense-list')){
     //     setExpenses(JSON.parse(localStorage.getItem('expense-list')))
@@ -47,6 +47,8 @@ const Dashboard = () => {
     const {userProfile} = userDetail;
 
     const [totalAmt, setTotalAmt] = useState(0);
+
+
 
     useEffect(()=>{
         dispatch(getUserDetail())

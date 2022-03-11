@@ -26,8 +26,8 @@ const {userLogin:{userInfo}} = getState();
 
 api.interceptors.request.use((req)=>{
     
-    if(userInfo){
-        req.headers.Authorization = `Bearer ${userInfo.success.user.access_token}`;
+    if(userInfo || localStorage.getItem('userInfo')){
+        req.headers.Authorization = `Bearer ${JSON.parse(localStorage.getItem('userInfo')).success.user.access_token}`;
     }
 
     return req;
