@@ -15,7 +15,17 @@ function App() {
     <div className='body-wrapper'>
       <Router>
         <Switch>
-          <Route exact path="/" component={Intro} />
+          <Route exact path="/" 
+          render={(props)=>
+            !userInfo ? (
+              <Intro 
+              {...props}
+              />
+            ): (<Redirect 
+              to='/dashboard'
+            />)}
+             />
+
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/dashboard" 
