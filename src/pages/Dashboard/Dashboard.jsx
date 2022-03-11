@@ -98,7 +98,7 @@ const Dashboard = () => {
             <div className='dashboard-left'>
 
                 <div className='profile-info'>
-                    {!userProfile.avatar ? 
+                    {!userProfile?.avatar ? 
                     <img className='profile-img' src={userProfile?.avatar} alt="placeholder" />
                     :
                     <img className='profile-img' src={"/images/profile_placeholder.png"} alt="placeholder" />
