@@ -44,7 +44,7 @@ const Dashboard = () => {
 
     const userDetail = useSelector(state=>state.userDetail);
 
-    const {userProfile, loading, error} = userDetail;
+    const {userProfile} = userDetail;
 
     const [totalAmt, setTotalAmt] = useState(0);
 

@@ -9,10 +9,10 @@ const headers = {
     'Content-Type':'application/json'
 };
 
-const headersImage = {
-    'Accept':'application/json',
-    'Content-Type': 'multipart/form-data'
-};
+// const headersImage = {
+//     'Accept':'application/json',
+//     'Content-Type': 'multipart/form-data'
+// };
 
 
 const api = axios.create({

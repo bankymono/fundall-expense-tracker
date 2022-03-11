@@ -23,7 +23,7 @@ const Register = ({history}) => {
 
   const userRegister = useSelector(state => state.userRegister);
 
-  const {userReg, success,loading,error} = userRegister;
+  const { success,loading,error} = userRegister;
 
   useEffect(()=>{
     if(success){
