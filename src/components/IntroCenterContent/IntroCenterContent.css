@@ -1,0 +1,44 @@
+
+.intro-center-content{
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-center-content .intro-img{
+    width: 275px;
+    margin-bottom: 75px;
+}
+
+.intro-center-content .intro-text-container{
+    margin-bottom: 74px;
+}
+
+.intro-center-content .text-one{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 14px;
+}
+
+.intro-center-content .text-two{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 14px;
+}
+
+
+.intro-center-content .author{
+    margin-bottom: 125px;
+}
+
+.intro-center-content .author span:first-child{
+    margin-right: 5px;
+}
+
+.intro-center-content .author span.name{
+    font-weight: bold;
+}

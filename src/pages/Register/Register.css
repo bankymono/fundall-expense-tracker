@@ -1,0 +1,141 @@
+
+.register-container{
+    display: flex;
+    justify-content: center;
+    margin: 61px 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    /* background-color: red; */
+}
+
+.register-container .reg-logo{
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.register-container .left-side{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   width: 50%;
+}
+
+.register-container .left-side .reg-img{
+    width: 243px;
+    -o-object-fit: contain;
+       object-fit: contain;
+       margin-bottom: 60px;
+}
+
+.register-container .text-wrapper{
+    max-width: 370px;
+}
+.register-container .welcome-container{
+    font-size: 40px;
+    margin-bottom: 29px;
+}
+
+.register-container .welcome-container span{
+    color: #4DE897;
+}
+
+.register-container .subtext{
+    font-size: 20px;
+    margin-bottom: 29px;
+
+}
+
+.register-container .right-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container .form-container{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082937);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container .form-container input{
+    display: block;
+}
+
+.register-container .form-container input:focus{
+    border: 2px solid  #4DE897;
+    outline: none;
+}
+
+.register-container .form-container .name-input-wrapper{
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.register-container .reg-input-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.register-container .reg-submit-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+}
+
+.register-container .reg-submit-button{    
+    width: 100%;
+    background-color: #4DE897;
+    color: #000;
+    outline: none;
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+}
+
+.register-container .login-text-wrapper{
+    text-align: center;
+}
+
+.register-container .form-container .name-input-wrapper .first-name-wrapper{
+    margin-right: 40px;
+}
+
+.register-container .reg-login-link{
+    text-decoration: none;
+    color: #4DE897;
+}
+
+.register-container input {
+    border: 1px solid #CAD0C9;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.register-container .right-side .term-container{
+    text-align: center;
+    color: #97A19D;
+    width: 70%;
+    align-self: center;
+}
+
+.register-container .term-container a:nth-child(2){
+    color: #4DE897;
+    text-decoration: none;
+}
+
+
+input.reg-input-error {
+    border: 1px solid red;
+}

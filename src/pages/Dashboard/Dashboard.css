@@ -1,0 +1,296 @@
+
+
+.dashboard-wrapper{
+    position: relative;
+    display: grid;
+    margin: 45px 50px;
+    grid-template-columns: 2fr 3fr;
+    color: #30443C;
+}
+
+.dashboard-wrapper .reg-logo{
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.dashboard-wrapper .dashboard-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dashboard-wrapper .dashboard-left .profile-info{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+
+.dashboard-wrapper .dashboard-left .profile-info .profile-img{
+    margin-right: 20px;
+}
+
+.dashboard-wrapper .dashboard-left .name-wrapper .name{
+    margin-bottom: 7px;
+    font-size: 28px;
+    color: #30443C;
+}
+
+
+.dashboard-wrapper .dashboard-left .expense-summary-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.dashboard-wrapper .dashboard-left .expense-detail{
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.dashboard-wrapper .dashboard-left .expense-detail .text-two{
+    font-size: 28px;
+}
+
+.dashboard-wrapper .dashboard-left .expense-summary-container .progress-bar{
+    height: 4px;
+    width: 80%;
+    background-color: #EFEFEF;
+    border-radius: 40px;
+}
+
+.dashboard-left .expense-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px rgba(77, 232, 151, 0.19);
+    border-radius: 10px;
+    width: 80%;
+    padding: 16px;
+}
+
+.dashboard-left .expense-card .expense-card-heading{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.dashboard-left .expense-card .card-expense-details{
+    margin-left: 40px;
+}
+
+.dashboard-left .expense-card .expense-data-heading{
+    display: flex;
+}
+
+.dashboard-left .expense-card .expense-data-heading .heading-one{
+    flex: 1;
+}
+
+.dashboard-left .expense-card .expense-data-heading .heading-two{
+    flex: 1;
+}
+
+.dashboard-left .expense-card .expense-list{
+    padding: 0;
+}
+
+.dashboard-left .expense-card .expense-list .expense-item{
+    display: flex;
+}
+
+.dashboard-left .expense-card .expense-list li{
+    border-bottom: 1px solid #E3ECE5;
+    padding: 20px 0;
+}
+
+.dashboard-left .expense-card .expense-list li:last-child{
+    border-bottom: none;
+    /* padding: 20px 0; */
+}
+
+.dashboard-left .expense-card .expense-list .expense-item div{
+    flex: 1;
+}
+
+.dashboard-left .expense-card .expense-list .expense-item div:nth-child(2){
+    color: #4DE897;
+}
+
+
+.dashboard-left .expense-card .pagination-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-left .expense-card .pagination-container span{
+    margin-right: 10px;
+    border: 1px solid #E3ECE5;
+    padding: 2px 3px;
+}
+
+.dashboard-left .expense-card .pagination-container div{
+    margin-left: 20px;
+}
+
+
+.dashboard-left .expense-card .pagination-container .dashboard-icon{
+    color: #4DE897;
+    font-size: 18px;
+}
+
+
+
+.dashboard-wrapper .dashboard-right{
+    background-color: #F2F3F7;
+    border-radius: 6px;
+    padding: 43px 0 20px 0;
+}
+
+.dashboard-wrapper .dashboard-right .top-info-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 30px;
+    margin-bottom: 30px;
+    padding: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082937);
+    border-radius: 6px;
+    position: relative;
+}
+
+
+.dashboard-wrapper .dashboard-right .top-info-card .dashboard-img{
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 150px;
+}
+
+.dashboard-wrapper .dashboard-right .top-info-card .dashboard-img{
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    width: 150px;
+}
+
+
+.dashboard-wrapper .dashboard-right .welcome-msg div:first-child{
+    margin-bottom: 10px;
+    color: #4DE897;
+    font-size: 22px;
+}
+
+
+.dashboard-wrapper .dashboard-right .welcome-msg div:first-child span{ 
+    margin-bottom: 10px;
+    color: #30443C;
+}
+
+.dashboard-wrapper .dashboard-right .welcome-msg div:nth-child(2){
+    font-size: 15px;
+}
+
+.dashboard-wrapper .dashboard-form-wrapper{
+    /* display: flex; */
+    margin: 0 60px;
+}
+
+.dashboard-wrapper .dashboard-form-wrapper form{
+    /* display: flex; */
+    /* margin: 0 60px; */
+    width: 100%;
+}
+
+.dashboard-wrapper .dashboard-form-wrapper .form-field-one{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 26px;
+}
+
+.dashboard-wrapper .dashboard-form-wrapper .form-field-one input{
+    border-radius: 4px;
+    border: 1px solid #CAD0C9;
+    padding: 11px;
+    font-size: 18px;
+    outline: none;
+}
+
+.dashboard-wrapper .dashboard-form-wrapper .form-field-one input:focus{
+
+    border: 1px solid #4DE897;
+
+}
+
+.dashboard-wrapper .subheading{
+    margin-bottom: 10px;
+}
+
+.dashboard-wrapper .form-collection-two{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.dashboard-wrapper .form-collection-two .form-field-two-a{
+    flex: 1;
+    /* margin-bottom: 25px; */
+    margin-right: 20px;
+    border-radius: 4px;
+    border: 1px solid #CAD0C9;
+    padding: 11px;
+    font-size: 18px;
+    outline: none;
+}
+
+.dashboard-wrapper .form-collection-two .form-field-two-b{
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #CAD0C9;
+    padding: 11px;
+    font-size: 18px;
+    outline: none;
+}
+
+.dashboard-wrapper .dashboard-total-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-wrapper .dashboard-total-wrapper  div:first-child{
+    margin-right: 10px;
+}
+
+.dashboard-wrapper .dashboard-total-wrapper  div:nth-child(2) {
+    
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-wrapper .dashboard-total-wrapper  div:nth-child(2) span{
+    border: 1px solid #4DE897;
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-wrapper .dboard-save-btn{
+    align-self: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #4DE897;
+    border: none;
+    padding: 13px;
+    border-radius: 10px;
+}

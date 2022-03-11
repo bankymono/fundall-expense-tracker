@@ -1,0 +1,42 @@
+
+.header-wrapper{
+    border-radius: 40px 40px  0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 94px;
+}
+
+.header-wrapper .brand_logo{
+    width: 80px;
+}
+
+.header-wrapper .login-btn {
+    text-transform: uppercase;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    /* line-height: 23px; */
+    /* font-weight: bold; */
+    margin-right: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.header-wrapper .signup-btn {
+    color: #000;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: #4CE895;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 24px;
+    text-decoration: none;
+}
